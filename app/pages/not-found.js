@@ -6,7 +6,7 @@ const NotFound = createClass({
         <header className="main-header">
           <div className="main-header__item">
             <h1 className="main-header__logo">
-              No Encontrado
+              No Encontrado asdasdasd
             </h1>
           </div>
 
