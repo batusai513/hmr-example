@@ -1,11 +1,6 @@
-import React, {createClass, PropTypes} from 'react';
-import {Link} from 'react-router';
+import React, { Component, PropTypes } from 'react';
 
-const Layout = createClass({
-  displayName: 'app-layout',
-  propTypes: {
-    children: PropTypes.node.isRequired
-  },
+class Layout extends Component {
   render(){
     return(
       <div className="layout-root">
@@ -13,6 +8,10 @@ const Layout = createClass({
       </div>
     );
   }
-});
+}
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired
+};
 
 export default Layout;

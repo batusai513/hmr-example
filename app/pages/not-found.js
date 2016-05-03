@@ -1,6 +1,7 @@
-import React, {createClass} from 'react';
-const NotFound = createClass({
-  render(){
+import React, { Component } from 'react';
+
+class NotFound extends Component {
+  render() {
     return (
       <div className="admin-layout">
         <header className="main-header">
@@ -20,6 +21,6 @@ const NotFound = createClass({
       </div>
     );
   }
-});
+}
 
 export default NotFound;
