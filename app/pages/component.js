@@ -1,27 +1,27 @@
-import React, {createClass} from 'react';
-const Component = createClass({
-  render(){
+import React, { Component } from 'react';
+
+class MyComponent extends Component {
+  render() {
     return (
       <div className="admin-layout">
-        <header className="main-header">
-          <div className="main-header__item">
-            <h1 className="main-header__logo">
-              No Encontrado
-            </h1>
-          </div>
+      <header className="main-header">
+      <div className="main-header__item">
+      <h1 className="main-header__logo">
+      No Encontradooo
+    </h1>
+    </div>
 
-        </header>
+    </header>
 
-        <MainSidebar />
 
-        <div className="app-container">
-          <article className="text-center">
-            <h1>Oops!, we could not find what you were looking for</h1>
-          </article>
-        </div>
-      </div>
-    );
+    <div className="app-container">
+      <article className="text-center">
+      <h1>Oops!, we could not find what you were looking fooor</h1>
+    </article>
+    </div>
+    </div>
+  );
   }
-});
+}
 
-export default Component;
+export default MyComponent;
